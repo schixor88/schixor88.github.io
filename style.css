@@ -1,0 +1,318 @@
+/**/
+/*FONT SECTION*/
+@font-face{
+    font-family: dosis;
+    src: url(font/dosis/Dosis-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: bree;
+    src: url(font/bree/BreeSerif-Regular.ttf) format('truetype');
+    
+}
+@font-face{
+    font-family: opensans-r;
+    src: url(font/opensans/OpenSans-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: opensans-l;
+    src: url(font/opensans/OpenSans-Light.ttf) format('truetype');
+}
+
+/**/
+/*PAGE INITIALIZATION*/
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+/**/
+/*NAV BAR AND ELEMENTS*/
+.nav{
+    font-family: opensans-r;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(14,14,10,0.9);
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.nav > li {
+    display:inline-block;
+    padding: 0px 75px 0px 75px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav > li>a:hover{
+    color: lightskyblue;
+}
+/**/
+/*LANDING PAGE BG*/
+.land{
+    background-image: url('drawable/10.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+/**/
+/*FIXED RIGHT BOX*/
+.mebox{
+    padding: 35px 15px 20px 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    position: fixed;
+    width: 250px;
+    height: auto;
+    background-color: rgba(17, 17, 17, 0.8);
+    }
+/**/
+/*BOXED NAME*/
+.boxed_name{
+    text-align: center;
+    font-family: opensans-l;
+    font-weight: 200;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: solid 2px white;
+    font-size: 20px;
+}
+/**/
+/*BOLD SURNAME*/
+.mebold{
+    font-weight: 800;
+}
+/**/
+/*CONTENT PART*/
+.bodybox{
+    padding-top: 30px;
+    padding-left: 320px;
+    
+    
+}
+/**/
+/*MY TITLE BELOW BOX*/
+.metitle{
+    font-family: opensans-l;
+    font-weight: 200;
+    font-size: 13px;
+    padding-top: 5px;
+}
+/**/
+/*SOCAIL CONTANCTS*/
+.social{
+    font-weight: 200;
+    font-size: 19px;
+    padding: 25px 0px;
+    text-align: center;
+    font-family: opensans-l;
+}
+/**/
+/*ICONS*/
+.icons{
+    padding: 10px 0px;
+}
+.icons > li {
+    font-family: opensans-l;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.icons > li >a> i {
+    padding: 15px 30px ;
+}
+
+.icons >li > a >i:hover{
+    color: lightskyblue;
+    
+}
+.icons >li>a{
+    text-decoration: none;
+    color: white;
+}
+
+/**/
+/*QUOTE BOX*/
+.quotebox{
+    color: aliceblue;
+    font-size: 43px;
+    font-style: italic;
+    float: right;
+    margin-top: 29%;
+    font-family:monospace;
+}
+.qbottom{
+    text-align: right;
+}
+
+/**/
+.blue_text{
+    color: #016edb;
+}
+/*MAIN BODY TO CONTAINER*/
+.titles_c{
+    padding-left: 10px;
+    font-family: bree;
+    border-left: 5px solid #016edb;
+}
+
+.content_c{
+    padding:20px 20px;
+    font-family: dosis;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.about_me{
+    border-bottom: 1px solid #016edb;
+}
+
+.my_exp{
+    font-family: dosis;
+    padding:20px 0px;
+border-bottom: 1px solid #016edb;
+}
+
+.my_work{
+    
+    font-family: dosis;
+    padding:20px 0px;
+
+}
+
+/**/
+/*PROGRESS BAR CSS w3*/
+.bars{
+    padding: 10px 20px 10px 25px;
+}
+.bars > h3{
+    padding: 20px 0px 0px 0px;
+}
+.skill_container{
+    width: 100%;
+    background-color: #ddd;
+}
+.skills{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: #ffffff;
+}
+.html{
+    width: 90%;
+    background: #3f85ff;
+}
+.css{
+    width: 70%;
+    background: #fe5e00;
+}
+.js{
+    width: 40%;
+    background: #feca00;
+}
+.apk{
+    width: 50%;
+    background: #4caf50;
+}
+.exe{
+    width: 60%;
+    background: #1e0d62;
+}
+
+/**/
+/* FOR WORKS*/
+/**/
+
+.work_box{
+    font-family: dosis;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 20px 0px 10px 35px;
+    border-bottom: 1px solid #016edb;
+}
+.work>a{
+    text-decoration: none;
+    color:#000000;
+}
+.work>a:hover{
+    color:#ffffff;
+}
+.work:hover{
+    background-color: rgba(17,17,17,0.8);
+}
+
+.w1{
+    margin:20px;
+    border: 2px solid ;
+    padding: 20px 10px 20px 10px;
+}
+.w2{
+    margin:20px;
+    border: 2px solid #4caf50 ;
+    padding: 20px 10px 20px 10px;
+}
+.w3{
+    margin:20px;
+    border: 2px solid #1e0d62 ;
+    padding: 20px 10px 20px 10px;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+    color: #ffffff;
+    padding-top:30px;
+    padding-bottom: 5px;
+    font-family: opensans-r;
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    text-align:center;
+    background-color: rgba(17, 17, 17, 0.8);
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
